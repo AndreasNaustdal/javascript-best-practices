@@ -1,12 +1,7 @@
-var a = 1;
-
-function myFunc(input) {
-  var x = input;
-  var y;
-  if(input > 0) {
-    y = input;
-  }
-  return x + y;
+function print(input) {
+  stringToPrint = input; // here we implicitly create a global var
+  console.log(stringToPrint);
 }
 
-console.log(myFunc(a));
+print('Hi Nerdschool');
+console.log(stringToPrint);
