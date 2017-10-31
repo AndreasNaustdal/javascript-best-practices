@@ -1,1 +1,2 @@
-// Your code for exercise 3 here
+console.log(myVariable);
+var myVariable = 'Hello Nerdschool!';
