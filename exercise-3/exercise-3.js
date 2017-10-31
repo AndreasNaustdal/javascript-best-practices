@@ -1,9 +1,8 @@
 var myMessage = 'A message';
 
 function printStuff() {
-  myMessage = 'Testing 123'; // changed
+  var myMessage = 'Testing 123';
   console.log(myMessage);
-  var myMessage; // added
 }
 printStuff();
-console.log(myMessage); // changed
+console.log(myMessage);

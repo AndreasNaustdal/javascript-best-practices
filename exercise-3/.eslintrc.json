@@ -2,6 +2,8 @@
     "rules": {
       "semi": "error",
       "brace-style": "error",
-      "eqeqeq": "error"
+      "eqeqeq": "error",
+      "no-use-before-define": "error",
+      "vars-on-top": "error"
     }
 }
