@@ -1,5 +1,3 @@
-// Your code for exercise 1 here
-function addTwoNumbers(a, b) {
-  return (a+b);
-}
-console.log('Result:', addTwoNumbers(1,2));
+var x = 1
+var y = 2
+console.log(x + y)
