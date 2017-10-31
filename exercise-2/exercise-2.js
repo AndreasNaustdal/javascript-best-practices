@@ -13,4 +13,4 @@ if(areEqual(a, b)) {
 
 var x = 1;
 var y = '0';
-var areTheyEqual = x == y;
+var areTheyEqual = x === y;
