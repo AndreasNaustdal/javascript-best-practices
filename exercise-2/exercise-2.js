@@ -2,7 +2,7 @@ var a = 0;
 var b = false;
 
 function areEqual(x, y) {
-  return x == y;
+  return x === y;
 }
 
 if(areEqual(a, b)) {
