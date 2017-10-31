@@ -6,3 +6,4 @@ function printStuff() {
   console.log(myMessage);
 }
 printStuff();
+console.log(anotherMessage);
