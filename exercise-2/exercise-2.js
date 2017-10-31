@@ -14,3 +14,10 @@ if(areEqual(a, b)) {
 var x = 1;
 var y = '0';
 var areTheyEqual = x === y;
+
+var z = false;
+if (z) {
+  console.log('Value is truthy');
+} else {
+  console.log('Value is falsy');
+}
