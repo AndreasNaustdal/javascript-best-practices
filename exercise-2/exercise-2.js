@@ -10,3 +10,7 @@ if(areEqual(a, b)) {
 } else {
   console.log('a and b are not equal :(');
 }
+
+var x = 1;
+var y = '0';
+var areTheyEqual = x == y;
