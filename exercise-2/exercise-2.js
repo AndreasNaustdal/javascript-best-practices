@@ -1,6 +1,5 @@
-// Your code for exercise 2 here
-var a = 1;
-var b = '1';
+var a = 0;
+var b = false;
 
 function areEqual(x, y) {
   return x == y;
