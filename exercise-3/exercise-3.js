@@ -1,12 +1,12 @@
-a = 1;
-var a;
-
-myFunc(a);
+var a = 1;
 
 function myFunc(input) {
   var x = input;
+  var y;
   if(input > 0) {
-    var y = input;
+    y = input;
   }
   return x + y;
 }
+
+console.log(myFunc(a));
