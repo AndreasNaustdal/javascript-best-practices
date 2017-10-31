@@ -1,8 +1,12 @@
-var myMessage = 'A message';
+a = 1;
+var a;
 
-function printStuff() {
-  var myMessage = 'Testing 123';
-  console.log(myMessage);
+myFunc(a);
+
+function myFunc(input) {
+  var x = input;
+  if(input > 0) {
+    var y = input;
+  }
+  return x + y;
 }
-printStuff();
-console.log(myMessage);
